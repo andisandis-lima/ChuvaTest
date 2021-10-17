@@ -6,18 +6,24 @@
 ul {
     list-style: none;
 }
+body{
+    height: 100%;
+}
 
 .menu {
     display: flex;
     flex-direction: column;
     align-items: left;
-    padding: 0px;
-    box-shadow: 10px, 5px, 5px, black;
     position: absolute;
-    height: 536px;
-    left: 0%;
-    right: 0%;
-    top: 0px;
+    height: 100%;
+    
+}
+
+.menu nav {
+    /*box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.25); Sombra - melhorar*/
+    position: absolute;
+    height: 100%; 
+
 }
 
 .menu nav ul li a{
@@ -25,10 +31,102 @@ ul {
     color: #725C5C;
     display: flex;
     font-family: Quicksand;
-    font-style: normal;
     font-size: 15px;
     line-height: 19px;
-    padding-left: 2%;
-    font-weight: 500;
+    padding-left: 10%;
+
 }
 
+.topo {
+    height: 68px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    align-items: flex-end;
+    float: left;
+    top: 0px;
+    background: #FDF1EB;
+    align-items: flex-start;
+}
+
+.topo p {
+    padding-left: 20%;
+    padding-top: 5px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 16px;
+    color: #725C5C;
+}
+
+.topo h3 {
+    padding-left: 20%;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 22px;
+    line-height: 26px;
+    color: #725C5C;
+}
+
+.topo h5 {
+    padding-left: 20%;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 16px;
+    color: #725C5C;
+}
+
+
+header .topo .lingua{
+    position: absolute;
+    width: 97px;
+    height: 34px;
+    left: 70%;
+    top: 17px;
+    background-color: #FDF1EB;
+    border: 1px solid ;
+    box-sizing: border-box;
+    border-radius: 3px;
+}
+
+header .login h6 {
+    position: absolute;
+    width: 72px;
+    height: 18px;
+    right: 7%;
+    top: 17px;
+    font-family: Quicksand;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: right;
+    color: #333333;
+}
+
+header .login p {
+    position: absolute;
+    width: 72px;
+    height: 18px;
+    right: 14%;
+    top: 30px;
+    font-family: Quicksand;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: right;
+    color: #333333;
+}
+
+header .login img {
+    position: absolute;
+    border-radius: 50%;
+    left: 95%;
+    top: 17px;
+}
